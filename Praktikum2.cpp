@@ -22,7 +22,7 @@ string kondisiBerat(float bmi) {
     } else if (bmi < 25) {
         return "Berat Badan Normal";
     } else if (bmi < 30) {
-        return "Berat Badan Kelebihan";
+        return "Berat Badan Kelebi";
     } else {
         return "Obesitas";
     }
