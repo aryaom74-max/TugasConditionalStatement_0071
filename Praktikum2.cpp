@@ -19,7 +19,7 @@ float hitungBMI(float berat, float tinggi) {
 string kondisiBerat(float bmi) {
     if (bmi < 18.5) {
         return "Berat Badan Kurang";
-    } else if (bmi < 2) {
+    } else if (bmi < 25) {
         return "Berat Badan Normal";
     } else if (bmi < 30) {
         return "Berat Badan Kelebihan";
